@@ -47,7 +47,7 @@ fn part2() -> Result<(), Box<dyn Error>> {
     for line in reader.lines() {
         let mut max_num: Vec<u32> = Vec::new();
         let line = line?;
-        let mut bs: Vec<u32> = line
+        let bs: Vec<u32> = line
             .chars()
             .map(|c| c.to_digit(10))
             .collect::<Option<Vec<_>>>()
