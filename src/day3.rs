@@ -1,5 +1,4 @@
 use std::{error::Error, fs::File, io, io::prelude::*};
-
 pub fn solve() -> Result<(), Box<dyn Error>> {
     part1()?;
     part2()?;
