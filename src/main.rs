@@ -1,7 +1,7 @@
 use aoc25::*;
 use std::error::Error;
 
-const DAY: u8 = 5;
+const DAY: u8 = 6;
 
 fn main() -> Result<(), Box<dyn Error>> {
     match DAY {
@@ -10,6 +10,7 @@ fn main() -> Result<(), Box<dyn Error>> {
         3 => day3::solve()?,
         4 => day4::solve()?,
         5 => day5::solve()?,
+        6 => day6::solve()?,
         _ => todo!(),
     }
     Ok(())
